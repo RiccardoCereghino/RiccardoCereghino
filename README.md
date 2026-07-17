@@ -8,9 +8,16 @@ Currently the sole infrastructure owner at **SIS Informatica e Sistemi**, where 
 
 Previously built a ship-to-shore data synchronization platform at PixelStudio/SIS — Python and Bash services coordinating MongoDB, RabbitMQ, and custom sync logic across ~300 vessels.
 
-## Homelab
+## Projects
 
-[**platform-zero**](https://github.com/RiccardoCereghino/platform-zero) — A production-grade Kubernetes cluster on Hetzner Cloud, fully defined as code. Built with Talos Linux, OpenTofu, Cilium + Gateway API, ArgoCD, SOPS + age, kube-prometheus-stack, and CloudNativePG.
+**[facet](https://github.com/RiccardoCereghino/facet)** — Task-scoped git
+workspaces over many repositories, spawned from GitHub issues. Go, MIT,
+cross-platform with CI on Linux/macOS/Windows.
+
+**[platform-zero](https://github.com/RiccardoCereghino/platform-zero)** —
+A production-grade Kubernetes cluster on Hetzner Cloud, fully defined as
+code: Talos Linux, OpenTofu, Cilium + Gateway API, ArgoCD, SOPS + age,
+kube-prometheus-stack, CloudNativePG.
 
 ## Stack
 
