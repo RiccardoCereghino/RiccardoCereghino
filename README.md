@@ -2,6 +2,8 @@
 
 Platform Engineer based in Genoa, Italy. I build and operate Kubernetes-based infrastructure, CI/CD platforms, and internal developer tooling.
 
+↗ **[riccardocereghino.github.io](https://riccardocereghino.github.io/)**
+
 ## What I do
 
 Currently the sole infrastructure owner at **SIS Informatica e Sistemi**, where I manage ~10 client environments on **AKS** with **ArgoCD**, **Helm**, and **GitHub Actions**. Recent work includes migrating the CI/CD platform from Jenkins/GitLab to GitHub Actions + ArgoCD, a full MySQL 5→8 migration across a complex multi-service stack, and driving the company toward ISO 27001 certification.
@@ -27,5 +29,7 @@ kube-prometheus-stack, CloudNativePG.
 
 Open to **Platform Engineer**, **DevOps Engineer**, and **SRE** roles — remote in Europe.
 
+- [riccardocereghino.github.io](https://riccardocereghino.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/riccardo-cereghino)
-- - riccardo.cereghino@gmail.com
+- [dev.to](https://dev.to/riccardo_cereghino)
+- [riccardo.cereghino@gmail.com](mailto:riccardo.cereghino@gmail.com)
