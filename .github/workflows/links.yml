@@ -1,0 +1,44 @@
+name: links
+
+# Same rationale as cereghino.me's links.yml: outbound links break for reasons
+# that have nothing to do with any commit, so this is scheduled, not push-gated.
+# Weekly, plus on demand.
+
+on:
+  schedule:
+    - cron: '23 6 * * 1' # Mondays, 06:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write # to file the report issue on failure
+
+jobs:
+  lychee:
+    name: profile link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # --exclude linkedin.com: LinkedIn answers 999 -> authwall to any
+          #   automated client, so it can never be verified from CI.
+          args: >-
+            --no-progress
+            --include-verbatim
+            --exclude linkedin\.com
+            README.md
+          output: ./lychee/out.md
+          fail: true
+          jobSummary: true
+
+      - name: Open an issue if links are broken
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken link(s) on the profile README
+          content-filepath: ./lychee/out.md
+          labels: bug
