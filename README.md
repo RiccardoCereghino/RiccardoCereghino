@@ -2,7 +2,7 @@
 
 Platform Engineer based in Genoa, Italy. I build and operate Kubernetes-based infrastructure, CI/CD platforms, and internal developer tooling.
 
-↗ **[riccardocereghino.github.io](https://riccardocereghino.github.io/)**
+↗ **[cereghino.me](https://cereghino.me/)**
 
 ## What I do
 
