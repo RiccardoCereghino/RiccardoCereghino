@@ -29,7 +29,6 @@ kube-prometheus-stack, CloudNativePG.
 
 Open to **Platform Engineer**, **DevOps Engineer**, and **SRE** roles — remote in Europe.
 
-- [riccardocereghino.github.io](https://riccardocereghino.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/riccardo-cereghino)
 - [dev.to](https://dev.to/riccardo_cereghino)
 - [riccardo.cereghino@gmail.com](mailto:riccardo.cereghino@gmail.com)
